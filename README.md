@@ -32,11 +32,15 @@ Prerequisites
 Node.js installed
 MySQL installed and running
 
+
 Setup the project:
 mkdir task_manager
 cd task_manager
+copy all files to this directory
+update host, password and user details in file db.js
 npm init -y
 npm install express mysql2 body-parser nodemon
+
 
 Api end points:
 
